@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prvaaplikacija", "prvaaplikacija\prvaaplikacija.csproj", "{172728B0-1184-47AC-A774-BE8E0DADCD71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varijable", "Varijable\Varijable.csproj", "{BE2449CE-06FE-4410-893C-45F951C4E6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpsegPovrsinaKruga", "OpsegPovrsinaKruga\OpsegPovrsinaKruga.csproj", "{0D61C839-26CF-4EE9-8F7C-8D4882275484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172728B0-1184-47AC-A774-BE8E0DADCD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172728B0-1184-47AC-A774-BE8E0DADCD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172728B0-1184-47AC-A774-BE8E0DADCD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172728B0-1184-47AC-A774-BE8E0DADCD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2449CE-06FE-4410-893C-45F951C4E6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2449CE-06FE-4410-893C-45F951C4E6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2449CE-06FE-4410-893C-45F951C4E6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2449CE-06FE-4410-893C-45F951C4E6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D61C839-26CF-4EE9-8F7C-8D4882275484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D61C839-26CF-4EE9-8F7C-8D4882275484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D61C839-26CF-4EE9-8F7C-8D4882275484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D61C839-26CF-4EE9-8F7C-8D4882275484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
