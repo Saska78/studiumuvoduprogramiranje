@@ -52,7 +52,7 @@ namespace prvaaplikacija
             char c3 = '\x006A';
             char c4 = (char)106;
 
-            Console.WriteLine(c1 + " " + c2 + " " + c3 + " ");
+            Console.WriteLine(c1 + " " + c2 + " " + c3 + " "+c4);
 
             Console.WriteLine("\"č itat\"");
             
