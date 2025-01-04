@@ -8,14 +8,16 @@ namespace Ugnjezdivanje_petlji
 {
     internal class Program
     {
+        private static int j;
+
         static void Main(string[] args)
         {
-            for (int i = 0; i <= 10; i++);
+            for (int i = 1; i <= 10; i++)
             {
                 for (int j = 1; j <= 10; j++);
                 {
-                    Console.WriteLine(in + j);
-                    Console.WriteLine("\t");
+                    Console.Write(i * j);
+                    Console.Write("\t");
                 }
                 Console.WriteLine();
             }

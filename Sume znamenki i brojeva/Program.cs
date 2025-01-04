@@ -1,5 +1,6 @@
-﻿/*Program traži unos cijelih brojeva dokle god su pozitivni 
- * Nakon toga ispisuje sumu znamenki unesenih brojeva-
+﻿/*
+ *Program traži unos cijelih brojeva dokle god su pozitivni 
+ * Nakon toga ispisuje sumu znamenki unesenih brojeva.
  */
 using System;
 using System.Collections.Generic;
@@ -26,10 +27,11 @@ namespace Sume_znamenki_i_brojeva
                         int z = broj % 10;
                         sum += z;
                         broj /= 10;
-
                     }
                 }
             } while (broj >= 0);
+
+            Console.WriteLine("Suma znamenki svih pozitivnih brojeva je" + sum);
         }
     }
 }

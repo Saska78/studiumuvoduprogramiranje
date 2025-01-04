@@ -24,13 +24,26 @@ namespace Tisucu_prostih
                         break;
                     }
                 }
-                if ( prost)
+                if (prost)
                 {
                     Console.WriteLine(broj);
                     brojac--;
                 }
+                broj++;
+            } while (brojac > 0);
 
-            }
+            
+                
+          
+                        
+                    
+                
+               
+                
+           
+                
+
+            
         }
     }
 }

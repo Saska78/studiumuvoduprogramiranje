@@ -10,22 +10,16 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            int sum = 0, brojac = 0;
-            int broj;
+            int a;
             do
             {
-                Console.Write("Unesite broj:");
-                broj = int.Parse(Console.ReadLine());
-                if (broj != 0)
-                {
-                    sum += broj;
-                    brojac ++;
-                }
+                Console.Write("Unesite broj: ");
+                a = int.Parse(Console.ReadLine());
+            } while (a < 0);
 
-            } while (broj!=0);
 
-            Console.WriteLine("Prosjek svih brojeva je");
-            }
         }
     }
+}      
+    
 
