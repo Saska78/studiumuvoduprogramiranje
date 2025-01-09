@@ -20,13 +20,20 @@ namespace Loto
 
             for(int i = 0; i < broj; i++)
             {
-                brojevi[i] = Random.Next(1, od + 1);
-                for (int j = 0; j < i; j++) ;
+                brojevi[i] = random.Next(1,od+1);
+                for(int j = 0; j < i; j++)
+                {
+                    if (brojevi[i] == brojevi[j])
+                    {
+                        i--;
+                        break;
+                    }
+                }
             }
 
             for (int i = 0; i < brojevi.Length; i++)
             {
-                Console.WriteLine(brojevi[i] + "\t");
+                Console.Write(brojevi[i]+"\t");
             }
 
         }

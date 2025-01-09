@@ -21,6 +21,8 @@ namespace Imena
                 Console.Write("Unesite {0}. ime: ", i + 1);
                 imena[i] = Console.ReadLine();
             }
+            Console.WriteLine();
+
             Console.WriteLine("Unijeli ste: ");
             for (int i = 0; i < imena.Length; i++) Console.Write(imena[i] + "\t");
 

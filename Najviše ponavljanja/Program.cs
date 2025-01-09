@@ -20,15 +20,15 @@ namespace Najviše_ponavljanja
                 brojevi[i] = rand.Next(50);
             }
 
-
             for(int i = 0; i < brojevi.Length; i++)
             {
-                Console.WriteLine(brojevi[i] + "\t");
+                Console.WriteLine(brojevi[i] +"\t");
             }
 
-            int broj = 0;brojac = 0;
+            int broj = 0,brojac = 0;
             for(int i = 0;i < brojevi.Length; i++)
             {
+                int tempbrojac = 1;
                 for(int j=i+1;j<brojevi.Length; j++)
                 {
                     if (brojevi[i] == brojevi[j]) tempbrojac++;
