@@ -15,7 +15,7 @@ namespace Enkapsulacija
             set { ime = value; }
         }
 
-        private string prezime;
+       private string prezime;
         public string Prezime
         {
             get { return prezime; }
@@ -25,13 +25,53 @@ namespace Enkapsulacija
         public string ImePrezime
         {
             get { return ime + "" + prezime; }
-
+        }
   
-    }
+        public string ImePrezimeM()
+        {
+            return ime + " " + prezime;
+        }
+
+        public DateTime DatumRodjenja
+        {
+            get; set;
+        }
+
+        public int Dob
+        {
+            get { return (DateTime.Now - DatumRodjenja).Days / 365; }
+            // set
+            //{
+            //  int godine = value;
+            // DatumRodjenja = DateTime.Now.AddYears(-godine);
+           //}
+        }
+
+     }
+
+
     internal class Program
     {
         static void Main(string[] args)
         {
+            Osoba o = new Osoba();
+            o.Ime = "Nikola";
+            o.Prezime = "Tesla";
+
+            Console.WriteLine(o.ImePrezime);
+            Console.WriteLine(o.ImePrezimeM());
+
+            o.DatumRodjenja = DateTime.Parse("10.7.1856");
+            Console.WriteLine(o.DatumRodjenja);
+
+            Console.WriteLine(o.Dob);
+            //o.Dob = 90;
+            Console.WriteLine(o.DatumRodjenja);
+
+
+          
+                
+                
         }
     }
 }

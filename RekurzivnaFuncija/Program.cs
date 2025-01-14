@@ -4,6 +4,8 @@
  * 2!=1*2
  * 3!=1*2*3
  * 4!=1*2*3*4
+ * ..
+ * n!=1*2*...*(n-1)*n
  * 
  * n!=(n-1)!*n
  */
@@ -17,9 +19,9 @@ namespace RekurzivnaFuncija
 {
     internal class Program
     {
+        
 
-
-        static long fakt(long n)
+  static long fakt(long n)
         {
             long f = 1;
             for (long i = 2; i <= n; i++)

@@ -15,12 +15,12 @@ namespace PokusajUnosa
             //broj = int.Parse(Console.ReadLine());
             if(int.TryParse(Console.ReadLine(),out broj))
             {
-                Console.WriteLine("Uspješno ste unijeli broj "+ broj);
+                Console.WriteLine("Uspješno ste unijeli broj " + broj);
             }
             else
             {
                 Console.WriteLine("Neznam kako to pretvoriti u broj!");
-                broj = -1;
+                //broj = -1;
             }
 
             Console.WriteLine(broj);

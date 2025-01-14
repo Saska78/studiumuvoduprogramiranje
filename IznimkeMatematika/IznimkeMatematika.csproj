@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{80F66D59-8A90-470D-949D-B0DFA5378E4F}</ProjectGuid>
+    <ProjectGuid>{894FD988-4160-4A5B-B2FB-CA4C7DFC9FDD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KlaseAutomobil</RootNamespace>
-    <AssemblyName>KlaseAutomobil</AssemblyName>
+    <RootNamespace>IznimkeMatematika</RootNamespace>
+    <AssemblyName>IznimkeMatematika</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Automobil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
