@@ -1,5 +1,5 @@
 ﻿/*
- * Učitati dva broja,prvi podijeliti s drugim, no paziti
+ * Učitati 2 broja,prvi podijeliti s drugim, no paziti
  * da ne dođe do greške koja bi srušila program!
  */
 using System;
@@ -16,7 +16,7 @@ namespace IznimkeMatematika
         {
             int a, b;
             Console.Write("Unesite 1. broj: ");
-            pocetaka:
+        pocetaka:
             try
             {
                 a = int.Parse(Console.ReadLine());
@@ -28,7 +28,7 @@ namespace IznimkeMatematika
             }
 
             Console.Write("UNesite 2. broj: ");
-            pocetakb:
+        pocetakb:
                 try
             {
                 b = int.Parse(Console.ReadLine());
@@ -45,7 +45,7 @@ namespace IznimkeMatematika
             }
             catch(DivideByZeroException e)
             {
-                Console.WriteLine(a + "/" + b + " = beskonačno!");
+                Console.WriteLine(a + " / " + b + " = beskonačno!");
             }
             catch (Exception e)
             {

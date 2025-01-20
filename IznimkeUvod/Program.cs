@@ -11,7 +11,7 @@ namespace IznimkeUvod
         static void Main(string[] args)
         {
             int a;
-            Console.WriteLine("Unesite cijeli broj");
+            Console.WriteLine("Unesite cijeli broj: ");
             try
             {
                 a = int.Parse(Console.ReadLine());

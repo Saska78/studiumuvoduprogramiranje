@@ -19,17 +19,17 @@ namespace OtvorenaRekurzija
     }
 
     public class Vozac : Radnik
+    {
+        private class Vozilo {
+            public int Snaga;
+        }
+        Vozilo v;
+        public Vozac(string ime, string alias) : base(ime, alias)
         {
-            private class Vozilo{
-                public int Snaga;
-            }
-            Vozilo v;
-            public Vozac(string ime, string alias) : base(ime, alias)
-            {
-                v = new Vozilo();
-                v.Snaga = 100;
-            }
-    
+            v = new Vozilo();
+            v.Snaga = 100;
+        }
+    }
         
         internal class Program
         {   
@@ -37,5 +37,5 @@ namespace OtvorenaRekurzija
             {
             }
         }
-    }
+    
  }

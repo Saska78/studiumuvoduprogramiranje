@@ -59,10 +59,10 @@ namespace Polimorfizam
                 new Krug(),
                 new Kvadrat(),
                 new Trokut(),
-                 new Trokut(),
-                 new Oblik(),
-                 new Krug(),
-                 new Peterokut()
+                new Trokut(),
+                new Oblik(),
+                new Krug(),
+                new Peterokut()
             };
 
             foreach(var oblik in oblici)

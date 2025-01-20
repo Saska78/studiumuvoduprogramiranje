@@ -11,12 +11,12 @@ namespace IznimkeBacanje
         /// <summary>
         /// 
         /// </summary>
-        /// <exception cref="Exception">U slučaju da je broj, noneispravnog raspona</exception>
-        /// <returns></returns>
+        /// <exception cref="Exception">U slučaju da je broj, no neispravnog raspona</exception>
+        /// <returns>ocjenu u int obliku</returns>
         static int ocjena()
         {
             int o;
-            Console.Write("Unesite ocjenu");
+            Console.Write("Unesite ocjenu: ");
             unos:
             try
             {

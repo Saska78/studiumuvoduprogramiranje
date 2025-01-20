@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6AB9D1C2-4F39-44FC-A7A6-F9DCC117BED5}</ProjectGuid>
+    <ProjectGuid>{D4F81F06-9606-4934-A4C0-6DB3AC8F80FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Foreach</RootNamespace>
-    <AssemblyName>Foreach</AssemblyName>
+    <RootNamespace>StringFormatiranje</RootNamespace>
+    <AssemblyName>StringFormatiranje</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,9 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
